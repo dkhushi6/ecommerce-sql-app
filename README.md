@@ -31,41 +31,6 @@ ER diagram:
 
 ![ER Diagram](er_diagram.png)
 
-## Setup
-
-```bash
-# Clone the repo
-git clone <repo-url>
-cd ecommerce-sql-app
-
-# Run the app (database is created automatically on first launch)
-python app.py
-```
-
-No dependencies to install — uses only the Python standard library.
-
-## Usage
-
-On first run, the database is initialized from `schema.sql` and seeded with sample data from `seed.sql`.
-
-```
-╔══════════════════════════════════════╗
-║   E-Commerce Order & Returns DB      ║
-╠══════════════════════════════════════╣
-║  1. View all orders                  ║
-║  2. View order details               ║
-║  3. Place new order                  ║
-║  4. Update order status              ║
-║  5. View all returns                 ║
-║  6. Request a return                 ║
-║  7. Update return status             ║
-║  8. Sales summary                    ║
-║  9. Customer orders                  ║
-║ 10. Low stock report                 ║
-║  0. Exit                             ║
-╚══════════════════════════════════════╝
-```
-
 ## Project Structure
 
 ```
